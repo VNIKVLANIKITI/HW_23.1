@@ -1,0 +1,86 @@
+[
+  {
+    "model": "catalog.product",
+    "pk": 1,
+    "fields": {
+      "title": "Электронная книга DEXP L3 MOON",
+      "description": "Электронная книга DEXP L3 Moon позволит наладиться процессом чтения, ведь в основе ее экрана лежит технология E-Ink Carta. Благодаря этой технологии включенный экран устройства выглядит как настоящая бумага, что обеспечивает максимальный комфорт для глаз в процессе чтения. Эта технология позволяет сэкономить на своем здоровье, ведь даже при длительном чтении исключается напряжение зрения.",
+      "image": "MOON_L3.jpg",
+      "category": 1,
+      "price": 7000,
+      "published": true,
+      "created_at": null,
+      "updated_at": null
+    }
+  },
+  {
+    "model": "catalog.product",
+    "pk": 2,
+    "fields": {
+      "title": "Электронная книга PocketBook 618 Basic Lux 4",
+      "description": "Электронная книга PocketBook 618 Basic Lux 4 представлена в удобном для удержания черном корпусе с 6-дюймовым экраном. Дисплей Carta с плотностью пикселей 212 ppi обладает широким углом обзора, четким и комфортным для глаз отображением букв. Сенсор облегчает навигацию по меню, встроенная подсветка позволяет читать книги при любом освещении.",
+      "image": "BASIC_LUX_4.jpg",
+      "category": 1,
+      "price": 14000,
+      "published": true,
+      "created_at": null,
+      "updated_at": null
+    }
+  },
+  {
+    "model": "catalog.product",
+    "pk": 3,
+    "fields": {
+      "title": "Смартфон  POCO X6 Pro 256 ГБ",
+      "description": "Смартфон POCO X6 Pro 256 выполнен в пластиковом черном корпусе. Класс защиты IP54 гарантирует устойчивость устройства к пыли, влаге и брызгам воды.",
+      "image": "POCO_X6.png",
+      "category": 2,
+      "price": 38000,
+      "published": true,
+      "created_at": null,
+      "updated_at": null
+    }
+  },
+  {
+    "model": "catalog.product",
+    "pk": 4,
+    "fields": {
+      "title": "Смартфон Xiaomi Redmi Note 12S 256 ГБ",
+      "description": "Смартфон Xiaomi Redmi Note 12S оснащен 6.43-дюймовым AMOLED-дисплеем, который отображает глубокий черный цвет и не допускает задержек при смене динамичных эпизодов.",
+      "image": "note_12s.png",
+      "category": 2,
+      "price": 20000,
+      "published": true,
+      "created_at": null,
+      "updated_at": null
+    }
+  },
+  {
+    "model": "catalog.product",
+    "pk": 5,
+    "fields": {
+      "title": "Планшет Xiaomi Redmi Pad SE Wi-Fi 128 ГБ",
+      "description": "Планшет Xiaomi Redmi Pad SE Wi-Fi выполнен в цельнометаллическом корпусе серого цвета толщиной 7.36 мм, что делает его удобным в пользовании и устойчивым к повреждениям.",
+      "image": "redmi_pad_se.jpg",
+      "category": 3,
+      "price": 19000,
+      "published": true,
+      "created_at": null,
+      "updated_at": null
+    }
+  },
+  {
+    "model": "catalog.product",
+    "pk": 6,
+    "fields": {
+      "title": "Планшет Apple iPad (9th Gen) Wi-Fi 64 ГБ",
+      "description": "Планшет Apple iPad (2021) Wi-Fi 64 ГБ сочетает стильный дизайн и мощные характеристики.",
+      "image": "apple.jpg",
+      "category": 3,
+      "price": 33000,
+      "published": true,
+      "created_at": null,
+      "updated_at": null
+    }
+  }
+]

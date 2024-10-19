@@ -1,0 +1,25 @@
+{% extends 'catalog/base_blog.html' %}
+{% load my_tags %}
+{% block content %}
+<div class="album py-5 bg-body-tertiary">
+        <div class="container">
+            <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
+                <div class="col">
+                    <div class="card shadow-sm">
+                        <img src="{{ article.preview | media_filter }}">
+                        <div class="card-body">
+                            <p class="card-text">{{ object.title }}</p>
+                            <p class="card-text">Содержимое: {{ object.content }}</p>
+                            <p class="card-text">Просмотры: {{ object.views_counter }}</p>
+                            <div class="d-flex justify-content-between align-items-center">
+                                <div class="btn-group">
+                                    <a class="btn btn-primary" href="{% url 'catalog:articles_list' %}" role="button">Назад</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+{% endblock %}

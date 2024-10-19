@@ -1,0 +1,26 @@
+[
+  {
+    "model": "catalog.category",
+    "pk": 1,
+    "fields": {
+      "title": "Электронные книги",
+      "description": "Электронные устройства для чтения"
+    }
+  },
+  {
+    "model": "catalog.category",
+    "pk": 2,
+    "fields": {
+      "title": "Смартфоны",
+      "description": "Любые смартфоны"
+    }
+  },
+  {
+    "model": "catalog.category",
+    "pk": 3,
+    "fields": {
+      "title": "Планшеты",
+      "description": "Любые планшеты"
+    }
+  }
+ ]
